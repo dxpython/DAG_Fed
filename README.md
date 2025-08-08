@@ -75,10 +75,10 @@ conda activate DAG_Fed
 
 ## **🚀 Usage**
 
-Run a CIFAR-10 experiment with 10 clients, 100 rounds, and a privacy budget of ε = 8.0:
+Run a CIFAR-10 experiment with 10 clients, 100 rounds, and a privacy budget of ε = 1.0:
 
 ```bash
-python main.py --dataset cifar10 --rounds 100 --clients 10 --epsilon 8.0
+python main.py --dataset cifar10 --rounds 100 --clients 10 --epsilon 1.0
 ```
 
 **Key Arguments**:
@@ -90,5 +90,6 @@ python main.py --dataset cifar10 --rounds 100 --clients 10 --epsilon 8.0
 * Additional parameters can be set in `config.py`
 
 ---
+
 
 
