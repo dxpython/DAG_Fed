@@ -58,22 +58,18 @@ DAGC_HDP_Federated_Learning/
 ### **1. Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/DAGC_HDP_Federated_Learning.git
-cd DAGC_HDP_Federated_Learning
+[git clone https://github.com/yourusername/DAGC_HDP_Federated_Learning.git](https://github.com/dxpython/[DAG_Fed](https://github.com/dxpython/DAG_Fed.git).git)
+cd DAG_Fed
 ```
 
 ### **2. Create a Python environment**
 
 ```bash
-conda create -n dagc_hdp python=3.9
-conda activate dagc_hdp
+conda create -n DAG_Fed python=3.9
+conda activate DAG_Fed
 ```
 
-### **3. Install dependencies**
 
-```bash
-pip install -r requirements.txt
-```
 
 ---
 
@@ -94,4 +90,5 @@ python main.py --dataset cifar10 --rounds 100 --clients 10 --epsilon 8.0
 * Additional parameters can be set in `config.py`
 
 ---
+
 
