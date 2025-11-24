@@ -58,7 +58,7 @@ DAGC_HDP_Federated_Learning/
 ### **1. Clone the repository**
 
 ```bash
-[git clone https://github.com/yourusername/DAGC_HDP_Federated_Learning.git](https://github.com/dxpython/[DAG_Fed](https://github.com/dxpython/DAG_Fed.git).git)
+git clone https://github.com/dxpython/DAG_Fed.git
 cd DAG_Fed
 ```
 
@@ -90,6 +90,7 @@ python main.py --dataset cifar10 --rounds 100 --clients 10 --epsilon 1.0
 * Additional parameters can be set in `config.py`
 
 ---
+
 
 
 
